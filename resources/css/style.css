@@ -52,3 +52,41 @@ a {
 .nav {
   display: none;
 }
+
+/* Banner */
+
+.container {
+  padding: 2rem 1.5rem;
+  max-width: 60%;
+}
+
+section {
+  width: 100%;
+  display: flex;
+}
+
+.banner {
+  padding-top: 4rem;
+  background-color: #afb3bc;
+}
+
+.banner aside {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+aside {
+  max-width: 40%;
+}
+
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 1.5rem;
+}
+
+.banner img {
+  width: 100%;
+}
