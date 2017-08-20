@@ -189,3 +189,25 @@ video {
 .thesis aside {
   padding-top: 1rem;
 }
+
+/* Footer */
+
+footer {
+  width: 97%;
+  display: flex;
+  justify-content: space-between;
+  border-top: 1px solid #afb3bc;
+  margin-top: 2rem;
+  padding-top: 1rem;
+  padding-left: 1.5rem;
+  height: 4rem;
+}
+
+footer div {
+  display: flex;
+  padding-right: 1.5rem;
+}
+
+footer .desktop a {
+  padding-left: 1rem;
+}
