@@ -87,8 +87,45 @@ aside {
   padding: 1.5rem;
 }
 
-.banner img {
+img {
   width: 100%;
 }
 
 /* Academy Information */
+
+h2 {
+  padding-top: 2rem;
+}
+
+.academy-info .container p {
+  padding-top: 1.5rem;
+}
+
+.info {
+  border-left: 1px solid #afb3bc;
+}
+
+.content {
+  display: flex;
+  max-width: 100%;
+}
+
+.image {
+  max-width: 35%;
+  height: auto;
+  padding: 1rem 1rem;
+}
+
+.text {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.text p {
+  padding-top: 0.5rem;
+}
+
+.text a {
+  padding-top: 0.5rem;
+}
