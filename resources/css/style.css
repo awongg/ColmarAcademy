@@ -162,3 +162,30 @@ h2 {
   padding-top: 0.5rem;
   margin: 0;
 }
+
+/* Thesis */
+
+.thesis {
+  background-color: #ffffff;
+  flex-direction: column;
+}
+
+.thesis h2 {
+  text-align: center;
+}
+
+.thesis-content {
+  display: flex;
+}
+
+video {
+  width: 100%;
+}
+
+.thesis h3 {
+  padding: 1.5rem 0 0.5rem 0;
+}
+
+.thesis aside {
+  padding-top: 1rem;
+}
