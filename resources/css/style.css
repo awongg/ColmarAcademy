@@ -1,0 +1,54 @@
+html {
+  font-size: 16px;
+}
+
+body {
+
+}
+
+/* header */
+
+nav {
+  display: flex;
+  width: 97%;
+  background-color: #ffffff;
+  height: 4rem;
+  align-items: center;
+  position: fixed;
+  z-index: 10;
+  justify-content: space-between;
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+}
+
+.colmar {
+  color: #2c3138;
+  font-weight: bold;
+}
+
+.academy {
+  color: #676a70;
+}
+
+ul {
+  display: flex;
+}
+
+ul li {
+  padding: 0 0.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: #2c3138;
+}
+
+.nav {
+  display: none;
+}
