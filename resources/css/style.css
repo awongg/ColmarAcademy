@@ -1,14 +1,5 @@
 /* latin */
 @font-face {
-  font-family: 'Roboto';
-  font-style: normal;
-  font-weight: 400;
-  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v16/CWB0XYA8bzo0kSThX0UTuA.woff2) format('woff2');
-  unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2212, U+2215;
-}
-
-/* latin */
-@font-face {
   font-family: 'Arimo';
   font-style: normal;
   font-weight: 400;
@@ -90,6 +81,24 @@ a {
   display: none;
 }
 
+@media only screen and (max-width: 480px) {
+  .navigation {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+  }
+
+  nav ul {
+    display: none;
+  }
+
+  .logo span {
+    display: none;
+  }
+
+}
+
 /* Banner */
 
 .container {
@@ -142,6 +151,26 @@ img {
   transition: background-color 0.5s ease-in 0.25s;
 }
 
+@media only screen and (max-width: 480px) {
+  .banner {
+    display: block;
+  }
+
+  .container {
+    max-width: 100%;
+    padding: 0;
+  }
+
+  aside {
+    max-width: 90%;
+  }
+
+  .banner-text{
+    width: 90%;
+  }
+
+}
+
 /* Academy Information */
 
 h2 {
@@ -189,6 +218,39 @@ h2 {
 
 .quoter {
   font-weight: 600;
+}
+
+@media only screen and (max-width: 480px) {
+  .academy-info .container {
+    display: none;
+  }
+
+  .desktop {
+    display: none;
+  }
+
+  .nav {
+    display: block;
+  }
+
+  .image {
+    max-width: 100%;
+  }
+
+  .text {
+    display: block;
+    padding-left: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .content {
+    flex-direction: column;
+  }
+
+  aside {
+    max-width: 100%;
+  }
+
 }
 
 /* Courses */
