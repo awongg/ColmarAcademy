@@ -77,7 +77,7 @@ a {
   color: #2c3138;
 }
 
-.nav {
+.navigation {
   display: none;
 }
 
@@ -309,8 +309,6 @@ h2 {
   .course .text {
     padding-right: 2rem;
   }
-
-
 }
 
 /* Thesis */
