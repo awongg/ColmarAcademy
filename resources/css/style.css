@@ -104,7 +104,7 @@ section {
 
 .banner {
   padding-top: 4rem;
-  background-color: #afb3bc;
+  background-color: #c5c6c9;
 }
 
 .banner aside {
@@ -122,10 +122,24 @@ aside {
   flex-direction: column;
   justify-content: center;
   padding: 1.5rem;
+  width: 70%;
 }
 
 img {
   width: 100%;
+}
+
+.banner a {
+  color: #ffffff;
+  background-color: #2c3138;
+  text-align: center;
+  padding: 0.5rem;
+  margin-top: 2rem;
+}
+
+.banner a:hover {
+  background-color: green;
+  transition: background-color 0.5s ease-in 0.25s;
 }
 
 /* Academy Information */
@@ -170,7 +184,7 @@ h2 {
 /* Courses */
 
 .courses {
-  background-color: #afb3bc;
+  background-color: #c5c6c9;
   align-items: center;
   flex-direction: column;
 }
