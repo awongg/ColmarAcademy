@@ -295,6 +295,24 @@ h2 {
   text-transform: uppercase;
 }
 
+@media only screen and (max-width: 480px) {
+  .course-container {
+    display: block;
+    padding: 2rem;
+    width: 90%;
+  }
+
+  .course {
+    width: 90%;
+  }
+
+  .course .text {
+    padding-right: 2rem;
+  }
+
+
+}
+
 /* Thesis */
 
 .thesis {
@@ -321,6 +339,13 @@ video {
 .thesis aside {
   padding-top: 1rem;
 }
+
+@media only screen and (max-width: 480px) {
+  .thesis h2 {
+    padding-bottom: 1rem;
+  }
+}
+
 
 /* Footer */
 
