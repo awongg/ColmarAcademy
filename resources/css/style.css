@@ -159,6 +159,11 @@ h2 {
 .content {
   display: flex;
   max-width: 100%;
+  border-bottom: 1px solid #c5c6c9;
+}
+
+.content:hover {
+  background-color: #d4d5d8;
 }
 
 .image {
@@ -179,6 +184,11 @@ h2 {
 
 .text a {
   padding-top: 0.5rem;
+  color: #5780f9;
+}
+
+.quoter {
+  font-weight: 600;
 }
 
 /* Courses */
